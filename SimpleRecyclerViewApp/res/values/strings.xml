@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">SimpleRecyclerViewApp</string>
+    <string-array name="member">
+        <item name="vampir">흡혈귀</item>
+        <item name="farmer">농부</item>
+        <item name="assasin">암살자</item>
+        <item name="hunter">사냥꾼</item>
+        <item name="archer">활잡이</item>
+        <item name="warrior">전사</item>
+        <item name="merchant">장사꾼</item>
+        <item name="courier">배달부</item>
+        <item name="wizard">마법사</item>
+        <item name="thief">도둑</item>
+        <item name="cook">요리사</item>
+        <item name="builder">목수</item>
+        <item name="monk">수도승</item>
+        <item name="villager">마을주민</item>
+        <item name="homejob">주부</item>
+        <item name="fisher">어부</item>
+        <item name="freelancer">용병</item>
+        <item name="knight">기사</item>
+        <item name="sniper">저격수</item>
+        <item name="pretty">미소녀</item>
+        <item name="officer">공무원</item>
+        <item name="alchemist">연금술사</item>
+        <item name="gang">건달</item>
+        <item name="soldier">군인</item>
+        <item name="learner">학자</item>
+        <item name="cat">고양이</item>
+        <item name="woodcutter">나무꾼</item>
+        <item name="bandit">도적</item>
+        <item name="walker">나그네</item>
+        <item name="spear">창잡이</item>
+        <item name="shielder">방패잡이</item>
+        <item name="hotdog">핫도그판매원</item>
+        <item name="miner">광부</item>
+    </string-array>
+</resources>
