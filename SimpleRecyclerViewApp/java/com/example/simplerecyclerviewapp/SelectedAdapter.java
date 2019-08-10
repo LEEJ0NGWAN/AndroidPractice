@@ -29,7 +29,7 @@ public class SelectedAdapter extends RecyclerView.Adapter<SelectedAdapter.ViewHo
     public void onBindViewHolder(@NonNull SelectedAdapter.ViewHolder holder, int position) {
         try {
             holder.textView.setText((String)selectedList.get(position));
-            holder.textView.setTextSize(textSize);
+//            holder.textView.setTextSize(textSize);
         } catch (NullPointerException e){
             e.printStackTrace();
         }
@@ -45,7 +45,7 @@ public class SelectedAdapter extends RecyclerView.Adapter<SelectedAdapter.ViewHo
         ViewHolder(View view) {
             super(view);
             textView = view.findViewById(R.id.selectedTextView);
-            textView.setTextSize(textSize);
+//            textView.setTextSize(textSize);
         }
     }
 

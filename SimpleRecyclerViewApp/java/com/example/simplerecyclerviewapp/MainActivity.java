@@ -42,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
         memberAdapter = new MemberAdapter(this, memberList, selectedList);
         memberView.setLayoutManager(new LinearLayoutManager(this));
         memberView.setAdapter(memberAdapter);
-        float textSize = (10 * this.getResources().getDisplayMetrics().density);
-        textView.setTextSize(textSize);
-        textView3.setTextSize(textSize);
-        totalView.setTextSize(textSize);
+//        float textSize = (10 * this.getResources().getDisplayMetrics().density);
+//        textView.setTextSize(textSize);
+//        textView3.setTextSize(textSize);
+//        totalView.setTextSize(textSize);
     }
 }

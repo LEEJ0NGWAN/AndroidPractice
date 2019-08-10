@@ -31,7 +31,7 @@ public class MemberAdapter extends RecyclerView.Adapter<MemberAdapter.ViewHolder
         holder.textView.setText((String) memberList.get(position));
         int color = (mainActivity.memberFlag[position]) ? 0xFF00BCD4 : 0xFFFFFFFF;
         holder.textView.setBackgroundColor(color);
-        holder.textView.setTextSize(textSize);
+//        holder.textView.setTextSize(textSize);
     }
 
     @Override
@@ -44,7 +44,7 @@ public class MemberAdapter extends RecyclerView.Adapter<MemberAdapter.ViewHolder
         ViewHolder(View itemView) {
             super(itemView);
             textView = itemView.findViewById(R.id.memberTextView);
-            textView.setTextSize(textSize);
+//            textView.setTextSize(textSize);
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
